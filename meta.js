@@ -79,6 +79,21 @@ module.exports = {
             type: 'confirm',
             message: 'Install vuex'
         },
+        axios: {
+            when: 'isNotTest',
+            type: 'confirm',
+            message: 'Install axios'
+        },
+        elementui: {
+            when: 'isNotTest',
+            type: 'confirm',
+            message: 'Install ElementUI'
+        },
+        mintui: {
+            when: 'isNotTest && !elementui',
+            type: 'confirm',
+            message: 'Install MintUI'
+        },
         lint: {
             when: 'isNotTest',
             type: 'confirm',
