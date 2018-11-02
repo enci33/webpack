@@ -15,18 +15,6 @@ const env = {{#if_or unit e2e}}process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
   : {{/if_or}}require('../config/prod.env')
 
-// webpack.dev.conf.js、webpack.prod.conf.js webpack配置文件添加插件配置
-    const WorkBoxPlugin = require('workbox-webpack-plugin')
-    const SwRegisterWebpackPlugin = require('sw-register-webpack-plugin')
-
-// 以service-worker.js文件为模板，注入生成service-worker.js
-    new WorkBoxPlugin.InjectManifest({
-        swSrc: path.resolve(__dirname, '../src/service-worker.js')
-    }),
-// 通过插件注入生成sw注册脚本
-        new SwRegisterWebpackPlugin({
-            version: +new Date()
-        })
 
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
