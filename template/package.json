@@ -26,7 +26,13 @@
   },
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
-    "vue-router": "^3.0.1"{{/router}}
+    "vue-router": "^3.0.1"{{/router}},
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    {{axios}}"axios": "^0.18.0"{{/axios}},
+    {{store}}"vuex": "^3.0.1"{{/store}},
+    {{elementui}}"element-ui": "^2.4.11"{{/elementui}},
+    {{mintui}}"mint-ui": "^2.2.13"{{/mintui}}
   },
   "devDependencies": {
     {{#lint}}
