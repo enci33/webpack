@@ -39,8 +39,8 @@
 {{#mintui}},
     "mint-ui": "^2.2.13",
 {{/mintui}}
-    "less": "^4.10.0",
-    "less-loader": "^7.1.0"
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0"
   },
   "devDependencies": {
     {{#lint}}
