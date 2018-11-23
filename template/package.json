@@ -36,7 +36,7 @@
 {{#elementui}}
     "element-ui": "^2.4.11",
 {{/elementui}}
-{{#mintui}},
+{{#mintui}}
     "mint-ui": "^2.2.13",
 {{/mintui}}
     "less": "^3.8.1",
