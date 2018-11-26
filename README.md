@@ -1,8 +1,13 @@
 # vue-webpack-boilerplate
 
-> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+## Add
+
+- vuex
+- axios
+- less
+- element-ui or mint-ui
+- npm run analyz
 
 ## Documentation
 
@@ -33,6 +38,9 @@ The development server will run on port 8080 by default. If that port is already
 
 ## What's Included
 
+- `npm run analyz`: a good tool
+  - Run it and open 127.0.0.1:8888
+
 - `npm run dev`: first-in-class development experience.
   - Webpack + `vue-loader` for single file Vue components.
   - State preserving hot-reload
@@ -56,11 +64,3 @@ The development server will run on port 8080 by default. If that port is already
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
-
-### Fork It And Make Your Own
-
-You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
-
-``` bash
-vue init username/repo my-project
-```
